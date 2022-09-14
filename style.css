@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#back {
+    height:100vh;
+    width:100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#logo {
+    height: 6vh;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+}
+
+.im {
+    height:100vh;
+    width:100%;
+    position: absolute;
+    background-color:#311d5e;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.up {
+    background-color: #311d5e;
+    border: 1px;
+    position: relative;
+    z-index: 3;
+    right: 1px;
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.nav {
+    padding: 15px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.contact {
+    padding-right: 160px;
+}
+
+.texts {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle {
+    font-family: 'Playfair Display';
+    color: white;
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Roboto';
+    color:white;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.line {
+    border-bottom: 2px solid #00e0d0;
+    margin-left: 805px;
+    margin-right: 805px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+}
+
+.buttom {
+    font-family: 'Hammersmith One';
+    color:#00e0d0;
+    border: 1px solid #00e0d0;
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+
+.dots {
+    height: 19px;
+    width: 15px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content:center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dot {
+    border: 1px solid white;
+    border-radius: 55%;
+    margin:3px;
+    padding: 1px;
+    padding-left:10px;
+    transition: 1s;
+    
+}
+
+.lag {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    transition: 1s ;
+    cursor: pointer;
+}
+
+
+.dot:hover {
+    cursor: pointer;
+    background-color: #00e0d0;
+}
+
+.buttom:hover {
+    color: white;
+    background-color:#00e0d0 ;
+    cursor: pointer;
+}
+
+.nav:hover {
+    color: #00e0d0;
+    transition: 1s;
+}
